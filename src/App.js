@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@mui/material";
+import { useStyles } from "./App.style";
+import Team from "./components/team/Team";
+import CssBaseline from "@mui/material/CssBaseline";
+import AboutUs from "./components/about/AboutUs";
 
 function App() {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box
+      className={classes.componentWrapper}
+      sx={(theme) => ({
+        width: "100vw",
+        [theme.breakpoints.down("sm")]: {
+          padding: "0 10px",
+        },
+      })}
+    >
+      <CssBaseline />
+      {/* <Team /> */}
+      <AboutUs />
+    </Box>
   );
 }
 

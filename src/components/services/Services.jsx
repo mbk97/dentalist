@@ -14,11 +14,12 @@ const Services = () => {
     <Box className={classes.serviceWrapper} mt={4}>
       <SectionText text="services" />
       <Box
-        justifyContent="space-between"
         className={classes.flexWrapper}
         sx={(theme) => ({
           [theme.breakpoints.down("sm")]: {
             flexDirection: "column",
+            padding: "0 20px",
+            background: "red",
           },
         })}
       >

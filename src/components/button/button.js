@@ -5,12 +5,21 @@ export const PrimaryButton = styled(Button)({
   height: "64px",
   background: "#583FBC",
   borderRadius: " 16px",
+  textTransform: "capitalize",
   color: "#ffffff",
+  " &:hover": {
+    backgroundColor: "#181945",
+  },
 });
 
 export const SmallPrimaryButton = styled(PrimaryButton)({
   width: "174px",
   height: "48px",
+});
+
+export const ExtraSmallButton = styled(PrimaryButton)({
+  width: "104px",
+  padding: "10px 0",
 });
 
 export const SecondaryButton = styled(PrimaryButton)({

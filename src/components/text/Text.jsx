@@ -30,7 +30,7 @@ const HeaderText = ({ text }) => {
         letterSpacing: "-0.04em",
         color: "#181945",
         [theme.breakpoints.down("sm")]: {
-          fontSize: "18px",
+          fontSize: "24px",
           lineHeight: "30px",
         },
       })}

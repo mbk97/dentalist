@@ -1,15 +1,13 @@
-import { Box, TextField } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
 import { MediumText } from "../text/text";
 import { HeaderText } from "../text/Text";
 import newsImg from "../../assets/images/news.png";
-import { ExtraSmallButton, SmallPrimaryButton } from "../button/button";
-import { useStyles } from "./style";
+import { InputWrapper, NewsInput } from "./style";
 import { Search } from "@mui/icons-material";
+import { InputButton } from "./style";
 
 const News = () => {
-  const classes = useStyles();
-
   return (
     <Box
       mt={4}
@@ -48,39 +46,21 @@ const News = () => {
             },
           })}
         >
-          <input
-            type="text"
-            placeholder="Search news or aricles"
-            style={{
-              height: "60px",
-              width: "100%",
-              background: "#FFFFFF",
-              border: "1px solid rgba(24, 25, 69, 0.1)",
-              borderRadius: "16px",
-              paddingLeft: "15px",
-            }}
-          />
-          {/* <Box className={classes.buttonPosition}>
-            <button
-              style={{
-                width: "100px",
-                padding: "10px 10px",
-                display: "flex",
-                alignItems: "center",
-                border: 0,
-                background: "#583fbc",
-                color: "#ffffff",
-                borderRadius: " 12px",
-              }}
-            >
+          <InputWrapper>
+            <NewsInput
+              type="text"
+              placeholder="Search news or aricles"
+              style={{}}
+            />
+            <InputButton>
               Search
               <Search
                 sx={{
                   paddingLeft: "5px",
                 }}
               />
-            </button>
-          </Box> */}
+            </InputButton>
+          </InputWrapper>
         </Box>
       </Box>
 

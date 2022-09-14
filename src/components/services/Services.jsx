@@ -1,4 +1,4 @@
-import { ArrowCircleRight, Send } from "@mui/icons-material";
+import { ArrowCircleRight } from "@mui/icons-material";
 import { Box, Grid } from "@mui/material";
 import React from "react";
 import { SecondaryButton } from "../button/button";
@@ -18,8 +18,7 @@ const Services = () => {
         sx={(theme) => ({
           [theme.breakpoints.down("sm")]: {
             flexDirection: "column",
-            padding: "0 20px",
-            background: "red",
+            // padding: "0 20px",
           },
         })}
       >

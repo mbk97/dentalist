@@ -7,6 +7,12 @@ import Dental from "./components/dental/Dental";
 import Priority from "./components/priority/Priority";
 import Canal from "./components/canals/Canal";
 import News from "./components/news & article/News";
+import Gallery from "./components/gallery/Gallery";
+import Syptoms from "./components/symptoms/Syptoms";
+import Clinic from "./components/clinic/Clinic";
+import Safety from "./components/safety/Safety";
+import Features from "./components/features/Features";
+import Intro from "./components/intro/Intro";
 
 function App() {
   const classes = useStyles();
@@ -26,8 +32,14 @@ function App() {
       {/* <AboutUs /> */}
       {/* <Dental /> */}
       {/* <Priority /> */}
-      <Canal />
+      {/* <Canal /> */}
       {/* <News /> */}
+      {/* <Gallery /> */}
+      {/* <Syptoms /> */}
+      {/* <Clinic /> */}
+      {/* <Safety /> */}
+      {/* <Features /> */}
+      <Intro />
     </Box>
   );
 }

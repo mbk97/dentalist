@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Syptoms from "./Syptoms";
 
 const GridItem = styled.div`
   display: flex;

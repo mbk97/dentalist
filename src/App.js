@@ -17,6 +17,15 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Testimonial from "./components/testimonial/Testimonial";
+import Expert from "./components/expert/Expert";
+import {
+  CustomInput,
+  CustomSelect,
+  MessageInput,
+} from "./components/input/CustomInput";
+import Appointment from "./components/appointment/Appointment";
+import Contact from "./components/contact/Contact";
+import Technology from "./components/technology/Technology";
 
 function App() {
   const classes = useStyles();
@@ -47,7 +56,14 @@ function App() {
         {/* <Features /> */}
         {/* <Intro /> */}
         {/* <Header /> */}
-        <Testimonial />
+        {/* <Testimonial /> */}
+        {/* <Expert /> */}
+        {/* <CustomInput type="text" placholder="name" label="Name" />
+        <CustomSelect value="Name" label="username" />
+        <MessageInput /> */}
+        {/* <Appointment /> */}
+        {/* <Contact /> */}
+        <Technology />
       </Box>
       {/* <Footer /> */}
       {/* <Navbar /> */}

@@ -6,7 +6,6 @@ export const NavWrapper = styled.div`
   align-items: center;
   padding: 0 30px;
   margin-top: 20px;
-
   @media (max-width: 1200px) {
     padding: 0px 0 0 5px;
   }
@@ -26,7 +25,7 @@ export const Nav = styled.nav`
     flex-direction: column;
     transition: all ease-in-out 0.3s;
     opacity: 0;
-
+    z-index: 1;
     &.active {
       opacity: 1;
       left: 0;

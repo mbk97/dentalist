@@ -24,7 +24,7 @@ import techImgTwo from "../../assets/images/techImgTwo.png";
 import bigTechImg from "../../assets/images/bigTechImg.png";
 
 import cto from "../../assets/images/cto.png";
-import { HeaderText, SectionText } from "../text/Text";
+import { HeaderText, SectionText } from "../text/mainText";
 import { Box } from "@mui/material";
 
 const Technology = () => {

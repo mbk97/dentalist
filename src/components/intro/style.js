@@ -5,7 +5,7 @@ const IntroContent = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 40px 0;
+  margin: 0 0 3rem 0;
 `;
 
 const IntroText = styled.p`

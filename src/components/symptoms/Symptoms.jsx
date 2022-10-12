@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { MediumText } from "../text/text";
-import { HeaderText, SectionText } from "../text/Text";
+import { HeaderText, SectionText } from "../text/mainText";
 import { data } from "./data";
 import {
   GridContainer,
@@ -19,8 +19,9 @@ const Syptoms = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "0 90px",
-        height: "800px",
+        paddingTop: "120px ",
+        paddingBottom: "70px ",
+        height: "auto",
         background: " #FADBE2",
         borderRadius: "48px",
         [theme.breakpoints.down("lg")]: {

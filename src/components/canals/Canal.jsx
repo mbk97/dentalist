@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { PrimaryButton } from "../button/button";
-import { HeaderText } from "../text/Text";
+import { HeaderText } from "../text/mainText";
 import { MediumText } from "../text/text";
 import canalImg from "../../assets/images/canals.png";
 
@@ -17,10 +17,12 @@ const Canal = () => {
         height: "600px",
         background: " #DBEFFA",
         borderRadius: "48px",
+        marginBottom: "15rem",
         [theme.breakpoints.down("lg")]: {
           flexDirection: "column",
           alignItems: "start",
           padding: "40px 40px 0",
+          marginBottom: "5rem",
         },
         [theme.breakpoints.down("sm")]: {
           flexDirection: "column",

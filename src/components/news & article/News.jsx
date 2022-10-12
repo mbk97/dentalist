@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { MediumText } from "../text/text";
-import { HeaderText } from "../text/Text";
+import { HeaderText } from "../text/mainText";
 import newsImg from "../../assets/images/news.png";
 import { InputWrapper, NewsInput } from "./style";
 import { Search } from "@mui/icons-material";

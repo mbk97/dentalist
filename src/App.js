@@ -1,35 +1,14 @@
-import { Box } from "@mui/material";
+import { Box, CssBaseline } from "@mui/material";
 import { GlobalStyle, useStyles } from "./App.style";
-import Team from "./components/team/Team";
-import CssBaseline from "@mui/material/CssBaseline";
-import AboutUs from "./components/about/AboutUs";
-import Dental from "./components/dental/Dental";
-import Priority from "./components/priority/Priority";
-import Canal from "./components/canals/Canal";
-import News from "./components/news & article/News";
-import Gallery from "./components/gallery/Gallery";
-import Syptoms from "./components/symptoms/Syptoms";
-import Clinic from "./components/clinic/Clinic";
-import Safety from "./components/safety/Safety";
-import Features from "./components/features/Features";
-import Intro from "./components/intro/Intro";
-import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
-import Header from "./components/header/Header";
-import Testimonial from "./components/testimonial/Testimonial";
-import Expert from "./components/expert/Expert";
-import {
-  CustomInput,
-  CustomSelect,
-  MessageInput,
-} from "./components/input/CustomInput";
-import Appointment from "./components/appointment/Appointment";
-import Contact from "./components/contact/Contact";
-import Technology from "./components/technology/Technology";
-
+import Footer from "./components/footer/Footer";
+// import Home from "./pages/Home";
+import About from "./pages/About";
+import Service from "./pages/Service";
+import TechPage from "./pages/TechPage";
+import ContactUS from "./pages/ContactUs";
 function App() {
   const classes = useStyles();
-
   return (
     <>
       <GlobalStyle />
@@ -43,30 +22,10 @@ function App() {
         })}
       >
         <CssBaseline />
-        {/* <Team /> */}
-        {/* <AboutUs /> */}
-        {/* <Dental /> */}
-        {/* <Priority /> */}
-        {/* <Canal /> */}
-        {/* <News /> */}
-        {/* <Gallery /> */}
-        {/* <Syptoms /> */}
-        {/* <Clinic /> */}
-        {/* <Safety /> */}
-        {/* <Features /> */}
-        {/* <Intro /> */}
-        {/* <Header /> */}
-        {/* <Testimonial /> */}
-        {/* <Expert /> */}
-        {/* <CustomInput type="text" placholder="name" label="Name" />
-        <CustomSelect value="Name" label="username" />
-        <MessageInput /> */}
-        {/* <Appointment /> */}
-        {/* <Contact /> */}
-        <Technology />
+        <Navbar />
+        <ContactUS />
       </Box>
-      {/* <Footer /> */}
-      {/* <Navbar /> */}
+      <Footer />
     </>
   );
 }

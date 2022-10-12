@@ -10,7 +10,9 @@ export const ContactWrapper = styled.div`
   height: 600px;
   margin-top: 4rem;
   border-radius: 38px;
+  margin-bottom: 30rem;
   @media (max-width: 900px) {
+    margin-bottom: 45rem;
   }
 `;
 
@@ -37,6 +39,6 @@ export const ContactInputs = styled.div`
   @media (max-width: 900px) {
     width: 100%;
     height: auto;
-    padding: 0 70px;
+    padding: 0 70px 30px;
   }
 `;

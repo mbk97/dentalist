@@ -10,6 +10,7 @@ export const HeaderWrapper = styled.div`
   background-size: cover;
   margin-top: 30px;
   border-radius: 38px;
+  margin-bottom: 5rem;
 
   @media (max-width: 1200px) {
     height: auto;
@@ -39,6 +40,10 @@ export const HeaderGridWrapper = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100vw;
+
+  @media (max-width: 900px) {
+    margin-top: 2rem;
+  }
 `;
 
 export const HeaderGridItem = styled.div``;

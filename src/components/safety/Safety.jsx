@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import { HeaderText, SectionText } from "../text/Text";
+import { HeaderText, SectionText } from "../text/mainText";
 import { VideoWrapper, SafetyTextContainer, SafetyText } from "./style";
 import safety from "../../assets/images/safety.png";
 import { MediumText } from "../text/text";
@@ -13,16 +13,18 @@ const Safety = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        // padding: "0 90px",
+        paddingTop: "250px",
         height: "700px",
         background: " #DBDEFA",
         borderRadius: "32px",
         position: "relative",
         textAlign: "center",
         flexDirection: "column",
-
+        marginBottom: "15rem",
         [theme.breakpoints.down("lg")]: {
           //   alignItems: "start",
+          paddingTop: "50px",
+          marginBottom: "5rem",
           height: "auto",
 
           //   padding: "40px 40px 0",

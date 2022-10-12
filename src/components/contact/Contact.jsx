@@ -13,7 +13,7 @@ import { GridItem, SymptomImage } from "../symptoms/style";
 import phone from "../../assets/images/phone.png";
 import { ContactInputs, ContactText, ContactWrapper } from "./style";
 import { Box } from "@mui/material";
-import { HeaderText } from "../text/Text";
+import { HeaderText } from "../text/mainText";
 import { MediumText } from "../text/text";
 
 const Contact = () => {

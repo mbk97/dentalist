@@ -5,7 +5,7 @@ export const TestimonialWrapper = styled.div`
   height: 800px;
   background: #d9ebfa;
   border-radius: 48px;
-  margin-top: 2rem;
+  margin: 0 0 5rem 0;
   display: flex;
   justify-content: center;
   /* align-items: center; */

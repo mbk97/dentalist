@@ -14,7 +14,7 @@ const Canal = () => {
         justifyContent: "space-between",
         alignItems: "center",
         padding: "0 90px",
-        height: "600px",
+        height: "auto",
         background: " #DBEFFA",
         borderRadius: "48px",
         marginBottom: "15rem",

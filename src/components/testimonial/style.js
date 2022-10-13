@@ -2,17 +2,18 @@ import styled from "styled-components";
 
 export const TestimonialWrapper = styled.div`
   width: 100%;
-  height: 800px;
+  height: auto;
   background: #d9ebfa;
   border-radius: 48px;
   margin: 0 0 5rem 0;
   display: flex;
   justify-content: center;
+  padding: 70px 0;
+
   /* align-items: center; */
   flex-direction: column;
   @media (max-width: 900px) {
     height: auto;
-    padding: 30px 0;
   }
 `;
 
@@ -20,6 +21,7 @@ export const TestimonialTextWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 0 40px;
   @media (max-width: 900px) {
     flex-direction: column;
@@ -39,6 +41,7 @@ export const TestimonialImages = styled.div`
 `;
 
 export const TestimonailImage = styled.div`
+  margin: 0 10px;
   @media (max-width: 600px) {
     img {
       max-width: 80%;

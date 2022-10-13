@@ -11,7 +11,7 @@ export const InputWrapper = styled.div`
   margin-top: 2rem;
   @media (max-width: 900px) {
     flex-direction: column;
-    width: 90vw;
+    width: 70vw;
     margin-top: 0rem;
 
     /* margin: 50px 0; */

@@ -5,13 +5,14 @@ export const TechnologyWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 2rem 0 5rem 0;
+  /* margin: 2rem 0 5rem 0; */
+  /* padding: 0 90px; */
 `;
 
 export const TechHeaderWrapper = styled.div`
   width: 950px;
   margin-top: 30px;
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
   }
 `;
@@ -19,7 +20,7 @@ export const TechHeaderWrapper = styled.div`
 export const TextWrapper = styled.div`
   width: 710px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
   }
 `;
@@ -47,7 +48,7 @@ export const TechText = styled.p`
   color: #181945;
   opacity: 0.5;
   width: 950px;
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
   }
 `;
@@ -74,7 +75,7 @@ export const CtoDate = styled.p`
 export const BigTechImg = styled.img`
   width: 1000px;
   margin-top: 40px;
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
   }
 `;
@@ -98,7 +99,7 @@ export const TechHeaderText = styled.h2`
 export const TextHeaderWrapperTwo = styled.div`
   width: 960px;
   margin-top: 40px;
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
   }
 `;
@@ -122,7 +123,7 @@ export const LinearBox = styled.div`
   justify-content: center;
   margin: 40px 0;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
     padding: 0 20px;
   }
@@ -136,7 +137,7 @@ export const LinearText = styled.p`
   color: #181945;
   width: 700px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
   }
 `;
@@ -144,7 +145,7 @@ export const LinearText = styled.p`
 export const RelatedTextWrapper = styled.div`
   width: 600px;
   text-align: left;
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     width: 100%;
   }
 `;

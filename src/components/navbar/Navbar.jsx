@@ -14,6 +14,7 @@ import logo from "../../assets/images/navLogo.png";
 import { PrimaryButton } from "../button/button";
 import { data } from "./data";
 import { CloseOutlined, MenuOutlined } from "@mui/icons-material";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -32,7 +33,16 @@ const Navbar = () => {
         <NavList>
           {data.map((item) => (
             <NavListItem key={item.id} onClick={handleClick}>
-              {item.text}
+              <NavLink
+                to={item.link}
+                style={({ isActive }) => ({
+                  color: isActive ? "#583FBC" : "#181945",
+                  textDecoration: "none",
+                })}
+                end
+              >
+                {item.text}
+              </NavLink>
             </NavListItem>
           ))}
         </NavList>

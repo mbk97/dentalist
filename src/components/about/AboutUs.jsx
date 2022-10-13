@@ -16,17 +16,18 @@ const AboutUs = () => {
           justifyContent: "space-between",
           marginTop: "4rem",
           alignItems: "center",
-          [theme.breakpoints.down("md")]: {
+          [theme.breakpoints.down("lg")]: {
             flexDirection: "column",
-            alignItems: "start",
           },
         })}
       >
         <Box
           sx={(theme) => ({
             width: "500px",
-            [theme.breakpoints.down("sm")]: {
+            marginRight: "30px",
+            [theme.breakpoints.down("lg")]: {
               width: "100%",
+              marginRight: "0px",
             },
           })}
         >
@@ -41,7 +42,7 @@ const AboutUs = () => {
 
         <Box
           sx={(theme) => ({
-            [theme.breakpoints.down("md")]: {
+            [theme.breakpoints.down("lg")]: {
               marginTop: "50px",
             },
           })}

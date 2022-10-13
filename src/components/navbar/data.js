@@ -12,7 +12,7 @@ export const data = [
   {
     id: 3,
     text: "Our Services",
-    link: "services",
+    link: "service",
   },
   {
     id: 4,

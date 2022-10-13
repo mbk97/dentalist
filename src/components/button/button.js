@@ -6,6 +6,8 @@ export const PrimaryButton = styled(Button)({
   background: "#583FBC",
   borderRadius: " 16px",
   textTransform: "capitalize",
+  fontFamily: "Noticia Text",
+
   color: "#ffffff",
   " &:hover": {
     backgroundColor: "#181945",

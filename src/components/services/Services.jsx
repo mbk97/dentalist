@@ -18,7 +18,7 @@ const Services = () => {
         <Box
           className={classes.flexWrapper}
           sx={(theme) => ({
-            [theme.breakpoints.down("sm")]: {
+            [theme.breakpoints.down("md")]: {
               flexDirection: "column",
               // padding: "0 20px",
             },
@@ -39,8 +39,9 @@ const Services = () => {
             className={classes.sectionText}
             sx={(theme) => ({
               width: "38%",
-              [theme.breakpoints.down("sm")]: {
+              [theme.breakpoints.down("md")]: {
                 width: "100%",
+                marginTop: "20px",
               },
             })}
           >
@@ -57,9 +58,11 @@ const Services = () => {
           justifyContent="space-between"
           mt={4}
           sx={(theme) => ({
-            [theme.breakpoints.down("sm")]: {
+            [theme.breakpoints.down("md")]: {
               justifyContent: "center",
               alignItems: "center",
+              display: "flex",
+              flexWrap: "wrap",
             },
           })}
         >

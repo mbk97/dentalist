@@ -16,7 +16,7 @@ const Gallery = () => {
         <Box
           className={classes.flexWrapper}
           sx={(theme) => ({
-            [theme.breakpoints.down("sm")]: {
+            [theme.breakpoints.down("lg")]: {
               flexDirection: "column",
               padding: "0 0px",
             },
@@ -26,7 +26,7 @@ const Gallery = () => {
             className={classes.titleWrapper}
             sx={(theme) => ({
               width: "500px",
-              [theme.breakpoints.down("sm")]: {
+              [theme.breakpoints.down("lg")]: {
                 width: "100%",
               },
             })}
@@ -37,8 +37,11 @@ const Gallery = () => {
             className={classes.sectionText}
             sx={(theme) => ({
               width: "38%",
-              [theme.breakpoints.down("sm")]: {
+              marginLeft: "20px",
+              [theme.breakpoints.down("lg")]: {
                 width: "100%",
+                marginLeft: "0px",
+                marginTop: "10px",
               },
             })}
           >

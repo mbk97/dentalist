@@ -21,6 +21,8 @@ const Safety = () => {
         textAlign: "center",
         flexDirection: "column",
         marginBottom: "15rem",
+        paddingBottom: "50px",
+
         [theme.breakpoints.down("lg")]: {
           //   alignItems: "start",
           paddingTop: "50px",

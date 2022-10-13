@@ -9,28 +9,41 @@ import { GeneralWrapper } from "../common/style";
 const Priority = () => {
   return (
     <GeneralWrapper>
-      <Grid
-        container
+      <Box
         mt={4}
-        columnSpacing={{ xs: 1, sm: 2, md: 5 }}
         sx={(theme) => ({
           display: "flex",
-          marginTop: "8rem",
-          [theme.breakpoints.down("sm")]: {},
+          justifyContent: "space-between",
+          marginTop: "4rem",
+          alignItems: "center",
+          [theme.breakpoints.down("lg")]: {
+            flexDirection: "column-reverse",
+            flexWrap: "wrap-reverse",
+          },
         })}
       >
-        <Grid item>
+        <Box
+          sx={(theme) => ({
+            width: "600px",
+            [theme.breakpoints.down("lg")]: {
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            },
+          })}
+        >
           <img src={priorityImg} style={{ maxWidth: "100%" }} alt="" />
-        </Grid>
-        <Grid
+        </Box>
+        <Box
           mt={3}
           item
           sx={(theme) => ({
             width: "600px",
             marginLeft: "40px",
-            [theme.breakpoints.down("md")]: {
-              maxWidth: "100%",
-              marginLeft: "0px",
+            [theme.breakpoints.down("lg")]: {
+              width: "100%",
+              marginBottom: "70px",
             },
           })}
         >
@@ -39,15 +52,13 @@ const Priority = () => {
             <HeaderText text="Our clients are our priority" />
           </Box>
           <MediumText
-            //   mb={5}
             mt={2}
             sx={(theme) => ({
               width: "510px",
-              marginBottom: "80px",
+              marginBottom: "30px",
               marginTop: "20px",
-              [theme.breakpoints.down("md")]: {
-                maxWidth: "100%",
-                marginBottom: "20px",
+              [theme.breakpoints.down("lg")]: {
+                width: "100%",
               },
             })}
           >
@@ -55,8 +66,8 @@ const Priority = () => {
             and publishing industries for previewing layouts and visual mockups.
           </MediumText>
           <PrimaryButton>Book an appointment</PrimaryButton>
-        </Grid>
-      </Grid>
+        </Box>
+      </Box>
     </GeneralWrapper>
   );
 };

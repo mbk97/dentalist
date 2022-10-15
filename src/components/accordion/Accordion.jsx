@@ -53,12 +53,11 @@ const Accordion = () => {
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
+                  cursor: "pointer",
                 }}
+                onClick={() => handleClick(item.id)}
               >
-                <AccordionHeader
-                  onClick={() => handleClick(item.id)}
-                  className={clicked ? "activeHeader" : ""}
-                >
+                <AccordionHeader className={clicked ? "activeHeader" : ""}>
                   {item.title}
                 </AccordionHeader>
 

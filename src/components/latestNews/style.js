@@ -5,6 +5,7 @@ export const NewsCardContainer = styled.div`
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 25px;
+  align-items: flex-start;
 `;
 
 export const NewsCard = styled.div`
@@ -19,6 +20,7 @@ export const NewsCard = styled.div`
 
   @media (max-width: 470px) {
     width: 280px;
+    height: 550px;
   }
 `;
 
@@ -28,9 +30,24 @@ export const NewsCardHeader = styled.div`
 
 export const NewsImg = styled.img`
   width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
 `;
 
-export const NewsCardBody = styled.div``;
+export const NewsCardBody = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  position: relative;
+`;
+
+export const LinkBtnWrapper = styled.div`
+  /* position: absolute;
+  bottom: "0px"; */
+`;
 
 export const NewsDate = styled.div``;
 

@@ -30,6 +30,7 @@ const Priority = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              paddingLeft: "20px",
             },
           })}
         >

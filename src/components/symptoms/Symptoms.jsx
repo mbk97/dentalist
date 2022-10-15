@@ -33,7 +33,7 @@ const Syptoms = () => {
           [theme.breakpoints.down("sm")]: {
             flexDirection: "column",
             alignItems: "center",
-            padding: "10px 40px 0",
+            padding: "40px",
             height: "auto",
           },
         })}

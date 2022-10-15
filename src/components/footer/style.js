@@ -40,6 +40,11 @@ export const IconContainer = styled.div`
 
 export const LinksList = styled.ul`
   margin-top: 20px;
+
+  @media (max-width: 470px) {
+    /* float: left; */
+    width: 300px;
+  }
 `;
 
 export const LinksListItem = styled.li`

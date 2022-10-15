@@ -42,6 +42,10 @@ const Input = styled.input`
   @media (max-width: 900px) {
     width: 100%;
   }
+
+  @media (max-width: 470px) {
+    width: 320px;
+  }
 `;
 // input field
 
@@ -71,11 +75,14 @@ const Select = styled.select`
   @media (max-width: 900px) {
     width: 100%;
   }
+  @media (max-width: 470px) {
+    width: 320px;
+  }
 `;
 
 const ArrowWrapper = styled.div`
   position: absolute;
-  right: 20px;
+  right: 0px;
   top: 45px;
   cursor: pointer;
 `;
@@ -101,6 +108,10 @@ const TextArea = styled.textarea`
 
   @media (max-width: 900px) {
     width: 100%;
+  }
+
+  @media (max-width: 470px) {
+    width: 320px;
   }
 `;
 

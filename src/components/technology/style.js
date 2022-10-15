@@ -5,7 +5,7 @@ export const TechnologyWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* margin: 2rem 0 5rem 0; */
+  margin-bottom: 5rem;
   /* padding: 0 90px; */
 `;
 

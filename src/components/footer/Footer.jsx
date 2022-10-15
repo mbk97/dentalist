@@ -27,7 +27,6 @@ const Footer = () => {
           justifyContent: "space-around",
           flexWrap: "wrap",
           [theme.breakpoints.down("lg")]: {
-            // alignItems: "start",
             height: "auto",
           },
           [theme.breakpoints.down("sm")]: {
@@ -70,7 +69,6 @@ const Footer = () => {
 
         <FooterItem>
           <FollowText>CONTACT AND INFORMATION</FollowText>
-
           {footerContact.map((item) => {
             return (
               <GridItem key={item.id}>

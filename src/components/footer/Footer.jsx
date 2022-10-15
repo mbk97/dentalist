@@ -59,7 +59,14 @@ const Footer = () => {
         </FooterItem>
 
         <FooterItem>
-          <FollowText>QUICK LINKS</FollowText>
+          <FollowText
+            style={{
+              paddingLeft: "10px",
+            }}
+          >
+            {" "}
+            QUICK LINKS
+          </FollowText>
           <LinksList>
             {linksData.map((item) => {
               return <LinksListItem key={item.id}>{item.text}</LinksListItem>;

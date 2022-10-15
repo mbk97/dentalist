@@ -38,18 +38,17 @@ export const IconContainer = styled.div`
   margin-top: 20px;
 `;
 
-export const LinksList = styled.ul`
+export const LinksList = styled.div`
   margin-top: 20px;
 
   @media (max-width: 470px) {
     /* float: left; */
-    width: 300px;
+    width: 100vw;
+    padding-left: 10px;
   }
 `;
 
-export const LinksListItem = styled.li`
-  list-style: none;
-  font-style: normal;
+export const LinksListItem = styled.p`
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;

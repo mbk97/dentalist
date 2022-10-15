@@ -4,8 +4,12 @@ export const NavWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 20px 30px;
   margin-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
   @media (max-width: 1200px) {
     padding: 0px 0 0 5px;
   }
@@ -14,7 +18,7 @@ export const NavWrapper = styled.div`
 export const Nav = styled.nav`
   @media (max-width: 1200px) {
     position: absolute;
-    top: 0;
+    top: -22px;
     left: -9000px;
     width: 90vw;
     height: 100vh;
@@ -28,7 +32,7 @@ export const Nav = styled.nav`
     z-index: 1;
     &.active {
       opacity: 1;
-      left: 0;
+      left: -10px;
     }
   }
 `;

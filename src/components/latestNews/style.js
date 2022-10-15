@@ -49,8 +49,6 @@ export const LinkBtnWrapper = styled.div`
   bottom: "0px"; */
 `;
 
-export const NewsDate = styled.div``;
-
 export const NewsText = styled.p`
   font-weight: 500;
   font-size: 16px;

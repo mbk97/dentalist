@@ -5,20 +5,22 @@ import { PrimaryButton } from "../common/button/button";
 import { MediumText } from "../common/text/text";
 import { HeaderText, SectionText } from "../common/text/mainText";
 import { GeneralWrapper } from "../common/style";
+import { DentalGrid } from "./style";
 
 const Dental = () => {
   return (
     <GeneralWrapper>
-      <Grid
-        container
-        mt={4}
-        columnSpacing={{ xs: 1, sm: 2, md: 5 }}
-        sx={(theme) => ({
-          // justifyContent: "center",
-          [theme.breakpoints.down("sm")]: {},
-        })}
-      >
-        <Grid item>
+      <DentalGrid>
+        <Grid
+          item
+          sx={(theme) => ({
+            [theme.breakpoints.down("md")]: {
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            },
+          })}
+        >
           <img src={dentalImg} style={{ maxWidth: "100%" }} alt="" />
         </Grid>
         <Grid
@@ -45,7 +47,7 @@ const Dental = () => {
               marginBottom: "80px",
               marginTop: "20px",
               [theme.breakpoints.down("md")]: {
-                maxWidth: "100%",
+                width: "100%",
                 marginLeft: "0px",
                 marginBottom: "20px",
               },
@@ -56,7 +58,7 @@ const Dental = () => {
           </MediumText>
           <PrimaryButton>Book an appointment</PrimaryButton>
         </Grid>
-      </Grid>
+      </DentalGrid>
     </GeneralWrapper>
   );
 };

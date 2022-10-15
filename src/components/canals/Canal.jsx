@@ -37,11 +37,22 @@ const Canal = () => {
           marginRight: "50px",
           [theme.breakpoints.down("lg")]: {
             width: "100%",
+            marginRight: "0px",
           },
         })}
       >
         <HeaderText text="Root canals " />
-        <MediumText sx={{ margin: "40px 0" }}>
+        <MediumText
+          sx={(theme) => ({
+            margin: "50px 0",
+            [theme.breakpoints.down("lg")]: {
+              width: "100%",
+            },
+            [theme.breakpoints.down("sm")]: {
+              width: "100%",
+            },
+          })}
+        >
           Root canals have gotten a bad reputation, but us dentists don’t know
           why! These are the types of treatments that actually make you feel
           better!

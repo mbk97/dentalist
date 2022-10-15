@@ -10,8 +10,8 @@ import {
   ListImg,
 } from "./style";
 import expertImg from "../../assets/images/expert-img.png";
-import { HeaderText, SectionText } from "../text/mainText";
-import { MediumText } from "../text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
+import { MediumText } from "../common/text/text";
 import listImg from "../../assets/images/listImg.png";
 import { listData } from "./data";
 import { GeneralWrapper } from "../common/style";

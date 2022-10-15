@@ -6,15 +6,15 @@ import {
   InputWrapper,
   MessageWrapper,
 } from "../appointment/style";
-import { PrimaryButton } from "../button/button";
+import { PrimaryButton } from "../common/button/button";
 import { EmergencyNum, EmergencyText } from "../header/style";
 import { CustomInput, CustomSelect, MessageInput } from "../input/CustomInput";
 import { GridItem, SymptomImage } from "../symptoms/style";
 import phone from "../../assets/images/phone.png";
 import { ContactInputs, ContactText, ContactWrapper } from "./style";
 import { Box } from "@mui/material";
-import { HeaderText } from "../text/mainText";
-import { MediumText } from "../text/text";
+import { HeaderText } from "../common/text/mainText";
+import { MediumText } from "../common/text/text";
 
 const Contact = () => {
   return (

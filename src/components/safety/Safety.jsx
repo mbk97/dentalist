@@ -1,9 +1,9 @@
 import React from "react";
 import { Box } from "@mui/material";
-import { HeaderText, SectionText } from "../text/mainText";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import { VideoWrapper, SafetyTextContainer, SafetyText } from "./style";
 import safety from "../../assets/images/safety.png";
-import { MediumText } from "../text/text";
+import { MediumText } from "../common/text/text";
 
 const Safety = () => {
   return (

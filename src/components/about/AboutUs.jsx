@@ -1,9 +1,9 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { PageTitle } from "../text/mainText";
+import { PageTitle } from "../common/text/mainText";
 import { aboutImg } from "../../assets/svg";
-import { MediumText } from "../text/text";
-import { PrimaryButton } from "../button/button";
+import { MediumText } from "../common/text/text";
+import { PrimaryButton } from "../common/button/button";
 import { GeneralWrapper } from "../common/style";
 
 const AboutUs = () => {

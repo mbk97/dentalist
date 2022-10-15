@@ -6,8 +6,8 @@ import {
   TestimonialTextWrapper,
   TestimonialWrapper,
 } from "./style";
-import { HeaderText, SectionText } from "../text/mainText";
-import { MediumText } from "../text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
+import { MediumText } from "../common/text/text";
 import { Box } from "@mui/material";
 import { data } from "./data";
 

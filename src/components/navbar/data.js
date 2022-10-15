@@ -16,11 +16,16 @@ export const data = [
   },
   {
     id: 4,
+    text: "Blog",
+    link: "blog",
+  },
+  {
+    id: 5,
     text: "Technology",
     link: "technology",
   },
   {
-    id: 5,
+    id: 6,
     text: "Contact Us",
     link: "contact",
   },

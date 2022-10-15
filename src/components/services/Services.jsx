@@ -1,9 +1,9 @@
 import { ArrowCircleRight } from "@mui/icons-material";
 import { Box, Grid } from "@mui/material";
 import React from "react";
-import { SecondaryButton } from "../button/button";
-import { MediumText } from "../text/text";
-import { HeaderText, SectionText } from "../text/mainText";
+import { SecondaryButton } from "../common/button/button";
+import { MediumText } from "../common/text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import { serviceData } from "./data";
 import { useStyles } from "./style";
 import { GeneralWrapper } from "../common/style";

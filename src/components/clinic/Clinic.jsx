@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { GridItem } from "../symptoms/style";
-import { HeaderText, SectionText } from "../text/mainText";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import { data } from "./data";
 import { ClinicItemGrid, ClinicItemWrapper } from "./style";
 

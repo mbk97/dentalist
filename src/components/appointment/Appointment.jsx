@@ -17,11 +17,11 @@ import {
   MessageInput,
 } from "../../components/input/CustomInput";
 import { EmergencyNum, EmergencyText } from "../header/style";
-import { PrimaryButton } from "../button/button";
+import { PrimaryButton } from "../common/button/button";
 import { GridItem, SymptomImage } from "../symptoms/style";
 import phone from "../../assets/images/phone.png";
-import { HeaderText, SectionText } from "../text/mainText";
-import { MediumText } from "../text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
+import { MediumText } from "../common/text/text";
 import { GeneralWrapper } from "../common/style";
 
 const Appointment = () => {

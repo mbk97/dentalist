@@ -1,8 +1,8 @@
-import { Box, Grid } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
-import { PrimaryButton } from "../button/button";
-import { MediumText } from "../text/text";
-import { HeaderText, SectionText } from "../text/mainText";
+import { PrimaryButton } from "../common/button/button";
+import { MediumText } from "../common/text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import priorityImg from "../../assets/images/priority.png";
 import { GeneralWrapper } from "../common/style";
 

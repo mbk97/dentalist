@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { MediumText } from "../text/text";
-import { HeaderText, SectionText } from "../text/mainText";
+import { MediumText } from "../common/text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import { data } from "./data";
 import {
   GridContainer,

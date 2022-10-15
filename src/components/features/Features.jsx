@@ -8,8 +8,8 @@ import {
   SymptomImage,
   SymptomText,
 } from "../symptoms/style";
-import { MediumText } from "../text/text";
-import { HeaderText, SectionText } from "../text/mainText";
+import { MediumText } from "../common/text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import { FeaturesTextWrapper } from "./style";
 import { GeneralWrapper } from "../common/style";
 

@@ -1,7 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import React from "react";
-import { DoctorsName, MediumText } from "../text/text";
-import { HeaderText, SectionText } from "../text/mainText";
+import { DoctorsName, MediumText } from "../common/text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import { doctors } from "./data";
 import { useStyles } from "./style";
 import { GeneralWrapper } from "../common/style";

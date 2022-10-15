@@ -8,6 +8,7 @@ import Service from "./pages/Service";
 import TechPage from "./pages/TechPage";
 import ContactUS from "./pages/ContactUs";
 import { Routes, Route } from "react-router-dom";
+import Blog from "./pages/Blog";
 function App() {
   const classes = useStyles();
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/technology" element={<TechPage />} />
           <Route path="/contact" element={<ContactUS />} />
         </Routes>

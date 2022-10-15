@@ -11,8 +11,8 @@ import {
   TextWrapper,
 } from "./style";
 import hero from "../../assets/images/hero.png";
-import { MediumText } from "../text/text";
-import { PrimaryButton } from "../button/button";
+import { MediumText } from "../common/text/text";
+import { PrimaryButton } from "../common/button/button";
 import { GridItem, SymptomImage } from "../symptoms/style";
 import phone from "../../assets/images/phone.png";
 

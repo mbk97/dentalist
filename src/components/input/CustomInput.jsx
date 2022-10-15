@@ -47,13 +47,6 @@ const Input = styled.input`
 
 // select box
 
-const CustomSelectWrapper = styled.div`
-  margin-right: 40px;
-  @media (max-width: 900px) {
-    margin-right: 0px;
-  }
-`;
-
 const SelectWrapper = styled.div`
   position: relative;
   width: 290px;

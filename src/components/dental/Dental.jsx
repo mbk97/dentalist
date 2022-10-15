@@ -1,9 +1,9 @@
 import { Box, Grid } from "@mui/material";
 import React from "react";
 import dentalImg from "../../assets/images/dental.png";
-import { PrimaryButton } from "../button/button";
-import { MediumText } from "../text/text";
-import { HeaderText, SectionText } from "../text/mainText";
+import { PrimaryButton } from "../common/button/button";
+import { MediumText } from "../common/text/text";
+import { HeaderText, SectionText } from "../common/text/mainText";
 import { GeneralWrapper } from "../common/style";
 
 const Dental = () => {

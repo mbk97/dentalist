@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { PrimaryButton } from "../button/button";
-import { HeaderText } from "../text/mainText";
-import { MediumText } from "../text/text";
+import { PrimaryButton } from "../common/button/button";
+import { HeaderText } from "../common/text/mainText";
+import { MediumText } from "../common/text/text";
 import canalImg from "../../assets/images/canals.png";
 
 const Canal = () => {

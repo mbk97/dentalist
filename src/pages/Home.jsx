@@ -7,7 +7,8 @@ import Features from "../components/features/Features";
 import Expert from "../components/expert/Expert";
 import Testimonial from "../components/testimonial/Testimonial";
 import Appointment from "../components/appointment/Appointment";
-// import LatestNews from "../components/latestNews/LatestNews";
+import LatestNews from "../components/latestNews/LatestNews";
+import { SectionText } from "../components/common/text/mainText";
 
 const Home = () => {
   return (
@@ -19,9 +20,19 @@ const Home = () => {
       <Features />
       <Expert />
       <Testimonial />
-      {/*
-       <LatestNews />
-    */}
+      <div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            marginBottom: "24px",
+          }}
+        >
+          <SectionText text="blog" />
+        </div>
+        <LatestNews />
+      </div>
       <Appointment />
     </div>
   );

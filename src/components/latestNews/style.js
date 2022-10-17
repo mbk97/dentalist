@@ -10,7 +10,7 @@ export const NewsCardContainer = styled.div`
 
 export const NewsCard = styled.div`
   width: 400px;
-  height: 480px;
+  height: 380px;
   left: 960px;
   top: 924px;
   background: #ffffff;

@@ -14,7 +14,7 @@ const Canal = () => {
         justifyContent: "space-between",
         alignItems: "center",
         padding: "10px 90px",
-        height: "auto",
+        height: "600px",
         background: " #DBEFFA",
         borderRadius: "48px",
         marginBottom: "15rem",
@@ -23,6 +23,9 @@ const Canal = () => {
           alignItems: "start",
           padding: "40px 40px 0",
           marginBottom: "5rem",
+          height: "auto",
+
+          /* margin: 50px 0; */
         },
         [theme.breakpoints.down("sm")]: {
           flexDirection: "column",
@@ -63,8 +66,13 @@ const Canal = () => {
       <Box
         sx={(theme) => ({
           marginTop: "195px",
+
           [theme.breakpoints.down("lg")]: {
             marginTop: "50px",
+            marginLeft: "70px",
+          },
+          [theme.breakpoints.down("md")]: {
+            marginLeft: "0px",
           },
         })}
       >

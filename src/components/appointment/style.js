@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const MapImg = styled.img`
   max-width: 80%;
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
 `;
 
 export const InputFields = styled.div``;

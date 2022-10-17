@@ -14,7 +14,7 @@ const inputData = [
 const selectData = [
   {
     id: 1,
-    value: "services",
+    value: "Select services",
     placeholder: "Teeth whitening",
   },
   {

@@ -11,11 +11,17 @@ const Gallery = () => {
 
   return (
     <GeneralWrapper>
-      <Box mt={4}>
+      <Box
+        mt={4}
+        style={{
+          overflow: "hidden",
+        }}
+      >
         <SectionText text="gallery" />
         <Box
           className={classes.flexWrapper}
           sx={(theme) => ({
+            flexWrap: "wrap",
             [theme.breakpoints.down("lg")]: {
               flexDirection: "column",
               padding: "0 0px",

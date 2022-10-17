@@ -40,11 +40,11 @@ const Input = styled.input`
     opacity: 0.8;
   }
   @media (max-width: 900px) {
-    width: 600px;
+    width: 90vw;
   }
 
   @media (max-width: 470px) {
-    width: 320px;
+    width: 90vw;
   }
 `;
 // input field
@@ -73,24 +73,12 @@ const Select = styled.select`
   -moz-appearance: none;
   appearance: none;
   @media (max-width: 900px) {
-    width: 600px;
+    width: 90vw;
   }
   @media (max-width: 470px) {
-    width: 320px;
+    width: 90vw;
   }
 `;
-
-const ArrowWrapper = styled.div`
-  position: absolute;
-  right: 10px;
-  top: 45px;
-  cursor: pointer;
-
-  @media (max-width: 470px) {
-    right: -25px;
-  }
-`;
-// select box
 
 // textarea
 const TextArea = styled.textarea`
@@ -111,11 +99,11 @@ const TextArea = styled.textarea`
   }
 
   @media (max-width: 900px) {
-    width: 600px;
+    width: 90vw;
   }
 
   @media (max-width: 470px) {
-    width: 320px;
+    width: 90vw;
   }
 `;
 
@@ -139,9 +127,6 @@ const CustomSelect = ({ value, label }) => {
           {value}
         </option>
       </Select>
-      <ArrowWrapper>
-        <KeyboardArrowDown />
-      </ArrowWrapper>
     </SelectWrapper>
   );
 };

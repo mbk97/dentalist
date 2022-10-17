@@ -13,7 +13,7 @@ const Canal = () => {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        padding: "40px 90px",
+        padding: "10px 90px",
         height: "auto",
         background: " #DBEFFA",
         borderRadius: "48px",

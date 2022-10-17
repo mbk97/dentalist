@@ -3,8 +3,11 @@ import styled from "styled-components";
 export const ExpertWrapper = styled.div`
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
+  @media (max-width: 1200px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const ListTextWrapper = styled.div`

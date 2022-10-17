@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const NewsCardContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
   align-items: flex-start;
 `;
 
 export const NewsCard = styled.div`
-  width: 400px;
-  height: 380px;
+  width: 300px;
+  height: 400px;
   left: 960px;
   top: 924px;
   background: #ffffff;
@@ -20,7 +20,6 @@ export const NewsCard = styled.div`
 
   @media (max-width: 470px) {
     width: 280px;
-    height: 550px;
   }
 `;
 

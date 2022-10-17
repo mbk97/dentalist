@@ -42,9 +42,13 @@ export const TestimonialImages = styled.div`
 
 export const TestimonailImage = styled.div`
   margin: 0 10px;
+  img {
+    max-width: 90%;
+    margin-left: 10px;
+  }
   @media (max-width: 600px) {
     img {
-      max-width: 80%;
+      max-width: 70%;
       display: block;
       margin: 20px auto;
     }

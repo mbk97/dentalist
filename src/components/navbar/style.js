@@ -8,19 +8,21 @@ export const NavWrapper = styled.div`
   margin-top: 20px;
   position: sticky;
   top: 0;
+  left: 0;
   z-index: 1;
   background-color: white;
   @media (max-width: 1200px) {
     padding: 0px 0 0 5px;
+    margin-top: 0px;
   }
 `;
 
 export const Nav = styled.nav`
   @media (max-width: 1200px) {
     position: absolute;
-    top: -22px;
-    left: -9000px;
-    width: 90vw;
+    top: 0px;
+    left: -900px;
+    width: 88vw;
     height: 100vh;
     background: #dbeffa;
     display: flex;
@@ -32,7 +34,14 @@ export const Nav = styled.nav`
     z-index: 1;
     &.active {
       opacity: 1;
-      left: -10px;
+      left: -82px;
+    }
+
+    @media (max-width: 470px) {
+      &.active {
+        opacity: 1;
+        left: -22px;
+      }
     }
   }
 `;
@@ -43,8 +52,6 @@ export const NavList = styled.ul`
 
   @media (max-width: 1200px) {
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
   }
 `;
 

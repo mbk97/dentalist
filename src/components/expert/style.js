@@ -35,7 +35,7 @@ export const HeaderWrapper = styled.div`
 
 export const ExpertImage = styled.img`
   max-width: 100%;
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     margin-top: 3rem;
   }
 `;

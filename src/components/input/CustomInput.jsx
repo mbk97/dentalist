@@ -40,7 +40,7 @@ const Input = styled.input`
     opacity: 0.8;
   }
   @media (max-width: 900px) {
-    width: 100%;
+    width: 600px;
   }
 
   @media (max-width: 470px) {
@@ -73,7 +73,7 @@ const Select = styled.select`
   -moz-appearance: none;
   appearance: none;
   @media (max-width: 900px) {
-    width: 100%;
+    width: 600px;
   }
   @media (max-width: 470px) {
     width: 320px;
@@ -82,9 +82,13 @@ const Select = styled.select`
 
 const ArrowWrapper = styled.div`
   position: absolute;
-  right: 0px;
+  right: 10px;
   top: 45px;
   cursor: pointer;
+
+  @media (max-width: 470px) {
+    right: -25px;
+  }
 `;
 // select box
 
@@ -107,7 +111,7 @@ const TextArea = styled.textarea`
   }
 
   @media (max-width: 900px) {
-    width: 100%;
+    width: 600px;
   }
 
   @media (max-width: 470px) {

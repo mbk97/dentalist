@@ -14,7 +14,7 @@ export const HeaderWrapper = styled.div`
 
   @media (max-width: 1200px) {
     height: auto;
-    padding-left: 30px;
+    padding: 30px;
   }
 `;
 

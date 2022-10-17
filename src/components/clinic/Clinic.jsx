@@ -7,27 +7,7 @@ import { ClinicItemGrid, ClinicItemWrapper } from "./style";
 
 const Clinic = () => {
   return (
-    <Box
-      mt={4}
-      sx={(theme) => ({
-        // display: "flex",
-        // justifyContent: "center",
-        // alignItems: "center",
-        // padding: "0 90px",
-        [theme.breakpoints.down("lg")]: {
-          //   flexDirection: "column",
-          //   alignItems: "start",
-          //   padding: "40px 40px 0",
-          //   height: "auto",
-        },
-        [theme.breakpoints.down("sm")]: {
-          //   flexDirection: "column",
-          //   alignItems: "center",
-          //   padding: "10px 40px 0",
-          //   height: "auto",
-        },
-      })}
-    >
+    <Box mt={4}>
       <Box
         style={{
           textAlign: "center",

@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const FooterWrapper = styled.div`
   padding: 70px 50px 10px;
-  height: 600px;
+  height: auto;
   /* give this an height of 100vh */
   background: #041434;
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     height: auto;
     padding: 40px 40px 10px;
   }
@@ -28,6 +28,11 @@ export const FollowText = styled.p`
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
+  /* width: 510px; */
+
+  @media (max-width: 900px) {
+    /* width: 510px; */
+  }
 `;
 
 export const IconContainer = styled.div`

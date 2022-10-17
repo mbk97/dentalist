@@ -15,7 +15,7 @@ const GridContainer = styled.div`
   gap: 20px;
   margin-top: 80px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 20px;
   }
@@ -35,7 +35,7 @@ const SymptomText = styled.p`
   letter-spacing: -0.02em;
   color: #181945;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     width: 100%;
     font-size: 12px;
   }

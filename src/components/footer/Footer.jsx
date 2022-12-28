@@ -28,9 +28,12 @@ const Footer = () => {
           flexWrap: "wrap",
           [theme.breakpoints.down("lg")]: {
             height: "auto",
+            justifyContent: "flex-start",
+            gap: "30px",
           },
           [theme.breakpoints.down("sm")]: {
             height: "auto",
+            gap: "10px",
           },
         })}
       >

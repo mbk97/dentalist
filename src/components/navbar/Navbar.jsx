@@ -15,7 +15,7 @@ import { PrimaryButton } from "../common/button/button";
 import { data } from "./data";
 import { CloseOutlined, MenuOutlined } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
-
+import { Link } from "react-scroll";
 const Navbar = () => {
   const [click, setClick] = useState(false);
 

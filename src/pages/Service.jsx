@@ -6,7 +6,7 @@ import Symptoms from "../components/symptoms/Symptoms";
 
 const Service = () => {
   return (
-    <div>
+    <div id="service">
       <Canals />
       <Symptoms />
       <Gallery />

@@ -18,7 +18,7 @@ import { MediumText } from "../common/text/text";
 
 const Contact = () => {
   return (
-    <ContactWrapper>
+    <ContactWrapper id="contact">
       <Box
         sx={{
           textAlign: "center",

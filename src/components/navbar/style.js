@@ -12,7 +12,7 @@ export const NavWrapper = styled.div`
   z-index: 1;
   background-color: white;
   @media (max-width: 1200px) {
-    padding: 0px 0 0 5px;
+    padding: 25px 0 0 5px;
     margin-top: 0px;
   }
 `;
